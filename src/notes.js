@@ -29,7 +29,7 @@
   function displayNotes(text){
       var nNotes = text;
       var di = document.getElementById("display-notes");
-
+      di.innerHTML = "";
       for(var i=0;i<nNotes.length;i++){
         var nodeB = document.createElement("BUTTON");
         nodeB.setAttribute("class","accordion");
